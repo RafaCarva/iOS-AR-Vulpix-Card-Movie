@@ -13,6 +13,7 @@
 		89AE94A128AD09AB00EC6087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89AE949F28AD09AB00EC6087 /* Main.storyboard */; };
 		89AE94A328AD09AC00EC6087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89AE94A228AD09AC00EC6087 /* Assets.xcassets */; };
 		89AE94A628AD09AC00EC6087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89AE94A428AD09AC00EC6087 /* LaunchScreen.storyboard */; };
+		89AE94AD28AD0C0600EC6087 /* vulpix.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 89AE94AC28AD0C0600EC6087 /* vulpix.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		89AE94A028AD09AB00EC6087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89AE94A228AD09AC00EC6087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89AE94A528AD09AC00EC6087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89AE94AC28AD0C0600EC6087 /* vulpix.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vulpix.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		89AE949828AD09AB00EC6087 /* iOS-AR-Vulpix-Card-Movie-Proj */ = {
 			isa = PBXGroup;
 			children = (
+				89AE94AC28AD0C0600EC6087 /* vulpix.mp4 */,
 				89AE949928AD09AB00EC6087 /* AppDelegate.swift */,
 				89AE949B28AD09AB00EC6087 /* art.scnassets */,
 				89AE949D28AD09AB00EC6087 /* ViewController.swift */,
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89AE949C28AD09AB00EC6087 /* art.scnassets in Resources */,
+				89AE94AD28AD0C0600EC6087 /* vulpix.mp4 in Resources */,
 				89AE94A628AD09AC00EC6087 /* LaunchScreen.storyboard in Resources */,
 				89AE94A328AD09AC00EC6087 /* Assets.xcassets in Resources */,
 				89AE94A128AD09AB00EC6087 /* Main.storyboard in Resources */,
