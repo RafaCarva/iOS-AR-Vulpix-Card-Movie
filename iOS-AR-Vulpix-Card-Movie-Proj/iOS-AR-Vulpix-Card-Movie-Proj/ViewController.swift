@@ -63,7 +63,19 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Se reconhecer uma img do seu AR Resource Group:
         if let minhaIMG = anchor as? ARImageAnchor{
             
-            print("--> Reconheceu: \(minhaIMG.referenceImage.name)")
+            // Crio o video
+            let videoNode = SKVideoNode(fileNamed: "vulpix.mp4")
+
+            videoNode.play()
+   
+            let videoScene = SKScene(size: CGSize(width: 480, height: 360))
+            
+            //posiciona o video
+            videoNode.position = CGPoint(x: videoScene.size.width / 2, y: videoScene.size.height / 2)
+            //Deixa o video de "cabeça para cima"
+            videoNode.yScale = -1.0
+            videoScene.addChild(videoNode)
+            
             
             //Cria o plane
             let plane = SCNPlane(
@@ -71,7 +83,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                 height: minhaIMG.referenceImage.physicalSize.height
             )
             
-            plane.firstMaterial?.diffuse.contents = UIColor(white: 1.0, alpha: 0.8)
+            plane.firstMaterial?.diffuse.contents = videoScene
             
             //Cria um node e insere o plane nele
             let planeNode = SCNNode(geometry: plane)
@@ -84,7 +96,4 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         return node
     }
 
-    
-    
-    
 }
